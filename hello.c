@@ -1,3 +1,7 @@
-//
-// Created by slliu on 2022/10/28.
-//
+int main() {
+    // 忽略我的存在
+    /* nihao
+     * nihao
+    */
+    return 0;
+}
