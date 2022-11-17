@@ -1,0 +1,15 @@
+[package]
+name = "compler-learn"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+lalrpop="0.19.8"
+regex="1.6.0"
+
+[dependencies]
+lalrpop-util = { version = "0.19.8", features = ["lexer"] }
+koopa = "0.0.5"
